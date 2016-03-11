@@ -1,0 +1,34 @@
+body {
+    background-image: url("congruent_pentagon.png");
+    font-family: "Open Sans", sans-serif;
+    color: #3b594f;
+}
+div.weather {
+    width: 400px;
+    height: 220px;
+    margin: 10% auto;
+    text-align: center;
+}
+.weather p{
+    font-size: 1.4em;
+    font-weight: 700;
+}
+p.location {
+    display: inline;
+    margin: 4px;
+}
+table.localWeather{
+    margin-top: 20px;
+    padding: 16px;
+    background: #ffffea;
+    border: 2px dashed #b1f6cb;
+    border-radius: 10px;
+}
+
+th,td {
+    padding: 4px 12px;
+}
+td.temp{
+    cursor: pointer;
+    font-weight: 600;
+}
